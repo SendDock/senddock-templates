@@ -58,8 +58,8 @@ Each entry in the `templates` array looks like this:
   "name": "Welcome — minimal",
   "category": "welcome",
   "description": "Clean welcome email with a single CTA. Works for SaaS onboarding and newsletter sign-ups.",
-  "thumbnail_url": "https://raw.githubusercontent.com/Arkhe-Systems/senddock-templates/main/templates/welcome-minimal.png",
-  "html_url": "https://raw.githubusercontent.com/Arkhe-Systems/senddock-templates/main/templates/welcome-minimal.html",
+  "thumbnail_url": "https://raw.githubusercontent.com/SendDock/senddock-templates/main/templates/welcome-minimal.png",
+  "html_url": "https://raw.githubusercontent.com/SendDock/senddock-templates/main/templates/welcome-minimal.html",
   "variables": ["first_name", "company_name", "cta_url"]
 }
 ```

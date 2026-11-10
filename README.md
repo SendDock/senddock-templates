@@ -5,7 +5,7 @@ Community-maintained library of starter email templates for [SendDock](https://s
 Every SendDock instance (Cloud and self-hosted) loads this manifest at runtime to power the **Browse library** modal on the templates page. Pick a template, click *Use template*, and SendDock clones it into your project — ready to edit.
 
 ```
-GET https://raw.githubusercontent.com/Arkhe-Systems/senddock-templates/main/index.json
+GET https://raw.githubusercontent.com/SendDock/senddock-templates/main/index.json
 ```
 
 ## How it works
@@ -20,7 +20,7 @@ SendDock backends cache the manifest in Redis for 1 hour, so changes here propag
 
 PRs are open and welcome — one PR per template. See [CONTRIBUTING.md](./CONTRIBUTING.md) for the format, HTML rules, thumbnail specs, and review checklist.
 
-This is the only SendDock repo that accepts external code contributions. The core engine at [Arkhe-Systems/senddock](https://github.com/Arkhe-Systems/senddock) is core-team-only by design.
+This is the only SendDock repo that accepts external code contributions. The core engine at [SendDock/senddock](https://github.com/SendDock/senddock) is core-team-only by design.
 
 ## License
 

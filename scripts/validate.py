@@ -4,7 +4,7 @@ import re
 import sys
 from pathlib import Path
 
-REPO_BASE_URL = "https://raw.githubusercontent.com/Arkhe-Systems/senddock-templates/main"
+REPO_BASE_URL = "https://raw.githubusercontent.com/SendDock/senddock-templates/main"
 ALLOWED_CATEGORIES = {"welcome", "newsletter", "announcement", "digest", "transactional"}
 ID_PATTERN = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 MAX_THUMBNAIL_BYTES = 100 * 1024
